@@ -1,0 +1,159 @@
+body {
+	background-color: #faf1e0;
+}
+
+.ctn {
+	font-family: 'Noto Serif', serif;
+	height: 100%;
+	width: 50%;
+	margin-top: 10%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #E6D7BD;
+	padding: 1%;
+	text-align: center;
+	margin: auto;
+	border-radius: 10%;
+}
+
+.ctn img {
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+}
+
+hr {
+	width: 50%;
+	border: 1px dotted black;
+}
+
+legend {
+	height: 100%;
+	width: 100%;
+}
+
+legend img {
+	height: 10%;
+	width: 10%;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 1%;
+	margin-left: 43%;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.educbg {
+	width: 31%;
+	height: 50%;
+	height: auto;
+	padding: 1%;
+}
+
+.educbg b {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.educbg p {
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+}
+
+.skillsbg {
+	width: 31%;
+	height: 50%;
+	padding: 1%;
+}
+
+.skillsbg b {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 16px;
+}
+
+.skillsbg p {
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+}
+
+.hobbiesbg {
+	width: 31%;
+	height: 50%;
+	padding: 1%;
+}
+
+.hobbiesbg p {
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.educbg, .skillsbg, .hobbiesbg {
+	display: inline-block;
+}
+
+fieldset {
+	border-bottom: 3px double black;
+	border-left: 3px double black;
+	border-right: 3px double black;
+	background-color: #EFE2CB;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.backbtn {
+	padding: 1%;
+	background-image: url("../images/button.png");
+	background-repeat: no-repeat;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	background-size: 40px auto;
+	text-decoration: none;
+}
+
+.backbtn:hover {
+	padding: 1%;
+	display: inline-block;
+	background-color: #C0A662;
+	background-repeat: no-repeat;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	background-size: 40px auto;
+	text-decoration: none;
+}
+
+.backbtn:focus {
+	outline: none;
+}

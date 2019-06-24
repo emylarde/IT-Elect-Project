@@ -1,0 +1,193 @@
+body {
+	background-color: #eff3f4;
+}
+
+.container {
+	height: 70%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.portfolio {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	text-shadow: 3px 2px #D3D3D3;
+	font-size: 50px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #e6e6e6;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.frame1 {
+	background-image: url(../images/picture1.png);
+	background-color: #B0E6B8;
+	background-position: 485px 0;
+}
+
+.frame1:hover {
+	background-color: #B0E6B8;
+}
+
+.frame2 {
+	background-image: url(../images/picture2.png);
+	background-color: #b0e0e6;
+	background-position: 482px 0;
+}
+
+.frame2:hover {
+	background-color: #b0e0e6;
+}
+
+.frame3 {
+	background-image: url(../images/picture3.png);
+	background-color: #E6B0B0;
+	background-position: 483px 0;
+}
+
+.frame3:hover {
+	background-color: #E6B0B0;
+}
+
+.frame4 {
+	background-image: url(../images/picture4.png);
+	background-color: #F1F1F1;
+	background-position: 483px 0;
+}
+
+.frame4:hover {
+	background-color: #F1F1F1;
+}
+
+.frame5 {
+	background-image: url(../images/picture5.png);
+	background-color: #faf1e0;
+	background-position: 483px 0;
+}
+
+.frame5:hover {
+	background-color: #faf1e0;
+}
+
+.frame1, .frame2, .frame3, .frame4, .frame5 {
+	width: 200px;
+	height: 248px;
+	overflow: hidden;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 2%;
+	-webkit-filter: grayscale(70%);
+	filter: grayscale(70%);
+}
+
+.frame1:hover, .frame2:hover, .frame3:hover, .frame4:hover, .frame5:hover {
+	-webkit-filter:grayscale(0);
+	filter: grayscale(0);
+	transition-delay: 0.1s;
+}
+
+.frame1 p {
+	background-color: #B0E6B8;
+}
+
+.frame2 p {
+	background-color: #b0e0e6;
+}
+
+.frame3 p {
+	background-color: #E6B0B0;
+}
+
+.frame4 p {
+	background-color: #F1F1F1;
+}
+
+.frame5 p {
+	background-color: #faf1e0;
+}
+
+.frame1 p, .frame2 p, .frame3 p, .frame4 p, .frame5 p {
+	font-family: 'VT323', monospace;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 100%;
+	text-shadow: 0px 0px black;
+}
+
+.message {
+	font-family: 'Open Sans', sans-serif;
+	width: 30%;
+	margin-left: 30%;
+	padding: 4%;
+}
+
+.contact {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input[type="submit"] {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	width: 80%;
+	padding: 3%;
+	margin-left: 8%;
+	background-color: transparent;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	background-color: #D3D3D3;
+	color: black;
+	transition-delay: 0.1s;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	font-family: 'Source Sans Pro', sans-serif;
+	border-bottom: 1px solid black;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	background-color: transparent;
+	text-align: center;
+	font-size: 15px;
+}
+
+textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	backround-color: transparent;
+	font-size: 15px;
+}
+
+input[type="text"], textarea {
+	display: block;
+}
+
+input[type="text"]:focus, textarea:focus {
+	outline: none;
+}

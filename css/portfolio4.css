@@ -1,0 +1,161 @@
+body {
+	background-color: #F1F1F1;
+}
+
+.lftcntner {
+	float: left;
+	height: 100%;
+	width: 30%;
+	margin-top: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #E1E1E1;
+	padding: 1%;
+}
+
+.lftcntner img {
+	height: 60%;
+	width: 60%;
+	border-radius: 50%;
+	margin-left: 18%;
+	padding: 1%;
+}
+
+.lftcntner h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 35px;
+	text-align: center;
+	text-shadow: 2px 4px #BABABA;
+	color: #543F5E;
+}
+
+.lftcntner p {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 15px;
+}
+
+.hrstyle {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+fieldset {
+	border: 1px dotted black;
+	padding: 1%;
+	background-color: #F0E7F2;
+}
+
+legend {
+	height: 100%;
+	width: 10%;
+}
+
+legend img {
+	height: 90%;
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 1%;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	float: right;
+}
+
+.educbg {
+	width: 60%;
+	margin-top: 3%;
+	margin-left: 33%;
+	padding: 1%;
+}
+
+.educbg b {
+	font-family: 'Roboto', sans-serif;
+	color: #5D4B66;
+	font-size: 16px;
+}
+
+.educbg p {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+.skillsbg {
+	width: 60%;
+	margin-top: 3%;
+	margin-left: 33%;
+	padding: 1%;
+}
+
+.skills b {
+	font-family: 'Raleway', sans-serif;
+	color: #A78CAE;
+	font-size: 16px;
+}
+
+.skillsbg p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.backbtn {
+	padding: 1%;
+	background-image: url("../images/button.png");
+	background-repeat: no-repeat;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	background-size: 40px auto;
+	text-decoration: none;
+}
+
+.backbtn:hover {
+	padding: 1%;
+	display: inline-block;
+	background-color: #B162C0;
+	background-repeat: no-repeat;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	background-size: 40px auto;
+	text-decoration: none;
+}
+
+.backbtn:focus {
+	outline: none;
+}
